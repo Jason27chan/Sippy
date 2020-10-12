@@ -1,9 +1,9 @@
 $(function() {
     $("#newRecipe").click(function() {
-        let title = $("#newTitle").text();
-        let diff = $("#newDiff").text();
-        let desc = $("#newDesc").text();
-        let steps = $("#newSteps").text();
+        let title = $("#newTitle").val();
+        let diff = $("#newDiff").val();
+        let desc = $("#newDesc").val();
+        let steps = $("#newSteps").val();
         let recipe = {
             title, diff, desc, steps
         };
